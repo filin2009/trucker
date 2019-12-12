@@ -18,12 +18,12 @@ import {extendWithDontPushTwoPageInStack} from "../extendWithDontPushTwoPageInSt
 import {NavigationPages} from "../navigation";
 
 export const RootNavigator = createStackNavigator({
-    [NavigationPages.login]: {screen: AuthPage},
-    [NavigationPages.playground]: {screen: Playground},
-    [NavigationPages.inDeveloping]: {screen: InDeveloping},
     [NavigationPages.menu]: {
         getScreen: (): NavigationComponent => NavigationConfig.instance.getNavigationComponent("menu")
     },
+    [NavigationPages.login]: {screen: AuthPage},
+    [NavigationPages.playground]: {screen: Playground},
+    [NavigationPages.inDeveloping]: {screen: InDeveloping},
 }, {
     headerMode: "screen",
     cardStyle: {
