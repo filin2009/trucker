@@ -32,7 +32,7 @@
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "react": "16.8.6",
-    "react-native": "0.59.4",
+    "react-native": "0.62.3",
     "react-native-dev-menu": "^2.0.2",
     "react-native-localization": "^2.1.0",
     "react-native-simple-toast": "0.0.8",
