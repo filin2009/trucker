@@ -30,7 +30,7 @@
     "bugsnag-react-native": "2.16.0",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "16.8.6",
     "react-native": "0.59.4",
     "react-native-dev-menu": "^2.0.2",
